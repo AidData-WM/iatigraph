@@ -6,9 +6,26 @@
     <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
-    <div class="vis">
+    <div class="vis"><!-- aka the left half of the screen -->
+      <svg></svg> <!-- we doing this svg??? -->
+      <div class="controls">
+        <!-- buttons n stuff etc -->
+      </div>
     </div>
-    <div class="info">
+ 
+    <div class="info"><!-- the right half of the screen -->
+      <div class="details"><!-- about the focussed node -->
+      </div>
+      <div class="parents">
+      </div>
+      <div class="children">
+      </div>
     </div>
+
+    <!-- all the scripts!! -->
+    <script src="/js/vendor/zepto.js"></script>
+    <script src="/js/vendor/d3.js"></script>
+    <script src="/data/mock-data.js"></script>
+    <script src="/js/main.js"></script><!-- our stuff! -->
   </body>
 </html>
