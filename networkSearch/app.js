@@ -45,11 +45,11 @@ mongoClient.connect('mongodb://127.0.0.1:27017/iatiToMongoDev', function(err, db
 							type:'transacted',
 							foreignProjectId: foreignProjectKey
 						});
-						activities.findOne({'iati-activity.iati-activity.iati-identifier': foreignProjectKey}, function(err, activity) {
+						console.log(foreignProjectKey);
+						activities.findOne({'iati-activity.iati-activity.iati-identifier.text': foreignProjectKey}, function(err, activity) {
 							if (activity) {
-								projects[foreignProjectKey] = activity; 
+								projects[activity['iati-activity']['iati-activity']['iati-identifier'][0]['text']] = activity['iati-activity']['iati-activity']; 
 							}	
-							console.log('asdf');
 							callback();
 						})
 						
