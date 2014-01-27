@@ -27,6 +27,10 @@ body {
   background: #bbb;
   color: #333;
 }
+.dark .button.active {
+  background: #778;
+  color: #fff;
+}
 .dark .button:hover {
   background: #ccc;
 }

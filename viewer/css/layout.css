@@ -25,6 +25,8 @@ body {
   position: absolute;
   top: 2em;  /* match .map-switcher height */
   left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .vis-control {
