@@ -1,0 +1,38 @@
+{
+id: 2015,
+provider: [
+{
+id: 1075,
+amount: 876543,
+date: "2014-01-03"
+},
+{
+id: 1076,
+amount: 174543,
+date: "2013-12-07"
+}
+],
+recipient: [
+{
+id: 3112,
+amount: 123,
+date: "2010-03-21"
+},
+{
+id: 30113,
+amount: 34543,
+date: "2013-12-07"
+},
+{
+id: 30114,
+amount: 1543,
+date: "2012-12-07"
+}
+],
+name: "This is an activity!",
+date: "2014-01-27",
+status: "Implementation",
+recipient_country: "ZM",
+sector: "Food aid/Food security programmes"
+}
+
