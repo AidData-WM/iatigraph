@@ -1,3 +1,6 @@
+//note to reader: i have no idea what functions are. that explains the code below
+
+
 var mongoClient = require('mongodb').MongoClient;
 var async = require('async');
 var fs = require('fs');
@@ -85,13 +88,18 @@ mongoClient.connect('mongodb://127.0.0.1:27017/iatiToMongoDev', function(err, db
 							type:'provider',
 							foreignProjectId: foreignProjectKey
 						});
-						projects[data['iati-activity']['iati-activity']['iati-identifier'][0]['text']] = data['iati-activity']['iati-activity'];
-						activities.findOne({'iati-activity.iati-activity.iati-identifier.text': foreignProjectKey}, function(err, activity) {
+						activities.findOne({'iati-activity.iati-activity.transaction.provider-org.@.provider-activity-id':foreignProjectKey}, function (err, data) {
+							projects[data['iati-activity']['iati-activity']['iati-identifier'][0]['text']] = data['iati-activity']['iati-activity'];
+
+							activities.findOne({'iati-activity.iati-activity.iati-identifier.text': foreignProjectKey}, function(err, activity) {
 							if (activity) {
-								projects[activity['iati-activity']['iati-activity']['iati-identifier'][0]['text']] = activity['iati-activity']['iati-activity']; 
-							}	
-							callback();
-						})
+									projects[activity['iati-activity']['iati-activity']['iati-identifier'][0]['text']] = activity['iati-activity']['iati-activity']; 
+								}	
+								callback();
+							})
+						});
+						
+
 						
 						
 					})
