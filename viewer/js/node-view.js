@@ -17,12 +17,20 @@ var setup = function() {
     .attr('transform', translate(x(-0.05), y(-0.05)));
 };
 
-/// set width and height globals on window resize
-$(window).on('resize ready', function() {
+
+var setWidthHeight = function() {
   width = $(vis.node()).width();
   height = $(vis.node()).height();
   vis.attr('width', width).attr('height', height);
   x = d3.scale.linear().range([0, width]);
   y = d3.scale.linear().range([0, height]);
+};
+/// set width and height globals on window resize
+$(window).on('resize', function() {
+  setWidthHeight();
+});
+
+$(document).on('ready', function() {
+  setWidthHeight();
   setup();
 });
