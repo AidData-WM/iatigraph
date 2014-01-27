@@ -6,22 +6,34 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/components.css" />
     <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/shame.css" />
   </head>
   <body>
-    <div class="vis"><!-- aka the left half of the screen -->
-      <svg></svg> <!-- we doing this svg??? -->
-      <div class="controls">
-        <!-- buttons n stuff etc -->
+    <div class="map dark"><!-- aka the left half of the screen -->
+      <nav class="map-switcher">
+        <a href="#" class="button">Country</a>
+        <a href="#" class="button">Organization</a>
+      </nav>
+
+      <svg class="vis"></svg><!-- we doing this svg??? -->
+
+      <div class="vis-control"><!-- buttons n stuff etc -->
+        <a href="#" class="button" data-icon="^">up a level</a>
+        <a href="#" class="button" data-icon="v">child projects</a>
       </div>
     </div>
  
     <div class="info"><!-- the right half of the screen -->
+      <h2>Info</h2>
       <div class="details"><!-- about the focussed node -->
+        <h3>Project Details</h3>
       </div>
       <div class="parents">
+        <h3>Parents</h3><!-- should probably find better names... -->
       </div>
       <div class="children">
+        <h3>Children</h3>
       </div>
     </div>
 

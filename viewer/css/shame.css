@@ -1,0 +1,15 @@
+
+.map-switcher a {
+  display: block;
+  font-size: 0.8em;
+  height: 100%;
+  line-height: 2.5em;  /* 1/.8*2 -- adjusted font size, 2em ... */
+  padding-top: 0;
+  width: 50%;  /* update widths when more links are added */
+  float: left;
+}
+
+.vis-control a {
+  display: block;
+  margin: 0.5em;
+}

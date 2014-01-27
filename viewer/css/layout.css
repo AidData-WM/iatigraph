@@ -1,13 +1,40 @@
-.vis {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.map {
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
-  width: 50%;
+  width: 50%;  /* match .info margin-left */
   background: #445;
   color: #ccc;
 }
 
+.map-switcher {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2em;  /* match .vis top */
+}
+
+.vis {
+  position: absolute;
+  top: 2em;  /* match .map-switcher height */
+  left: 0;
+}
+
+.vis-control {
+  position: absolute;
+  top: 3em;  /* 2 for top buttons, 1 floating */
+  left: 1em;
+}
+
 .info {
   margin-left: 50%;
+  padding: 1em;
 }
+
