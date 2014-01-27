@@ -45,7 +45,7 @@ mongoClient.connect('mongodb://127.0.0.1:27017/iatiToMongoDev', function(err, db
 						nodes[nodeProjectId] = nodes[nodeProjectId] || {};
 						nodes[nodeProjectId].edges = nodes[nodeProjectId].edges || [];
 						nodes[nodeProjectId].edges.push({
-							type:'receiver',
+							type:'receivesFundingFrom',
 							foreignProjectId: foreignProjectKey
 						});
 						activities.findOne({'iati-activity.iati-activity.iati-identifier.text': foreignProjectKey}, function(err, activity) {
@@ -85,7 +85,7 @@ mongoClient.connect('mongodb://127.0.0.1:27017/iatiToMongoDev', function(err, db
 						nodes[nodeProjectId] = nodes[nodeProjectId] || {};
 						nodes[nodeProjectId].edges = nodes[nodeProjectId].edges || [];
 						nodes[nodeProjectId].edges.push({
-							type:'provider',
+							type:'providesFundingTo',
 							foreignProjectId: foreignProjectKey
 						});
 						activities.findOne({'iati-activity.iati-activity.transaction.provider-org.@.provider-activity-id':foreignProjectKey}, function (err, data) {
