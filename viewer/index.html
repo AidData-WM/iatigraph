@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>The Mostest super-awesome iati viewer</title>
+    <title>IATI Graph Explorer</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/components.css" />
     <link rel="stylesheet" href="css/layout.css" />
@@ -12,16 +12,16 @@
   <body>
     <div class="map dark"><!-- aka the left half of the screen -->
       <nav class="map-switcher">
-        <a href="#" class="button">Country</a>
+        <a href="#" class="button active">Country</a>
         <a href="#" class="button">Organization</a>
       </nav>
 
       <svg class="vis"></svg><!-- we doing this svg??? -->
 
-      <div class="vis-control"><!-- buttons n stuff etc -->
+      <!--<div class="vis-control"><!- - buttons n stuff etc - ->
         <a href="#" class="button icon-arrow-up"><span class="visually-hidden focussable">up a level</span></a>
         <a href="#" class="button icon-arrow-down"><span class="visually-hidden focussable">child projects</span></a>
-      </div>
+      </div>--> 
     </div>
  
     <div class="info"><!-- the right half of the screen -->
@@ -40,7 +40,10 @@
     <!-- all the scripts!! -->
     <script src="js/vendor/zepto.js"></script>
     <script src="js/vendor/d3.v3.js"></script>
+    <script src="js/vendor/underscore.js"></script>
+    <script src="js/vendor/backbone.js"></script>
     <script src="data/mock-data.js"></script>
+    <script src="js/node-view.js"></script><!-- our stuff! -->
     <script src="js/main.js"></script><!-- our stuff! -->
   </body>
 </html>
