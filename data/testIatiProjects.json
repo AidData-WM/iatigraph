@@ -1,0 +1,3791 @@
+[{
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "22000"
+						},
+						"text" : "Catholic Relief Services"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "52010"
+						},
+						"text" : "Food aid/Food security programmes"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Inland Freight Co of USAID Title II Food Aid for Agriculture/Natural Resource Management, Direct Distribution - HIV"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010048019"
+					}
+				],
+				"description" : [{
+						"text" : "USAID Title II Food Aid for Agriculture/Natural Resource Management, Direct Distribution - HIV through Catholic Relief Services.  Inland Freight Co of Lentils / Metric Tons: 13."
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "1,300"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "1,300"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc9603012000001"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "22000"
+						},
+						"text" : "Catholic Relief Services"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "52010"
+						},
+						"text" : "Food aid/Food security programmes"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Ocean Freight of USAID Title II Food Aid for Agriculture/Natural Resource Management, Direct Distribution - HIV"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010048508"
+					}
+				],
+				"description" : [{
+						"text" : "USAID Title II Food Aid for Agriculture/Natural Resource Management, Direct Distribution - HIV through Catholic Relief Services.  Ocean Freight of Lentils / Metric Tons: 13."
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "2,000"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "2,000"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc9603012000002"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "22000"
+						},
+						"text" : "Catholic Relief Services"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "52010"
+						},
+						"text" : "Food aid/Food security programmes"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Ocean Freight of USAID Title II Food Aid for Agriculture/Natural Resource Management, Direct Distribution - Non HIV"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010048509"
+					}
+				],
+				"description" : [{
+						"text" : "USAID Title II Food Aid for Agriculture/Natural Resource Management, Direct Distribution - Non HIV through Catholic Relief Services.  Ocean Freight of Lentils / Metric Tons: 22."
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "3,500"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "3,500"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc9603012000004"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "22000"
+						},
+						"text" : "Catholic Relief Services"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "52010"
+						},
+						"text" : "Food aid/Food security programmes"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Inland Freight Co of USAID Title II Food Aid for Health/Nutrition, Direct Distribution - HIV"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010048022"
+					}
+				],
+				"description" : [{
+						"text" : "USAID Title II Food Aid for Health/Nutrition, Direct Distribution - HIV through Catholic Relief Services.  Inland Freight Co of Lentils / Metric Tons: 58."
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "5,800"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "5,800"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc9603012000007"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "22000"
+						},
+						"text" : "NGO - Non United States Unknown"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "16010"
+						},
+						"text" : "Social/ welfare services"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Social Assistance"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010043889"
+					}
+				],
+				"description" : [{
+						"text" : "Cash or in-kind transfers to the poor or to those suffering from temporary shocks. Health services provided in-kind should be captured under the respective health element(s). [through Program for Vulnerable Children and Women]"
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "1,148"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "5,000"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc9603012000006"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "22000"
+						},
+						"text" : "Catholic Relief Services"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "52010"
+						},
+						"text" : "Food aid/Food security programmes"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Inland Freight Co of USAID Title II Food Aid for Agriculture/Natural Resource Management, Direct Distribution - Non HIV"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010048020"
+					}
+				],
+				"description" : [{
+						"text" : "USAID Title II Food Aid for Agriculture/Natural Resource Management, Direct Distribution - Non HIV through Catholic Relief Services.  Inland Freight Co of Lentils / Metric Tons: 22."
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "2,200"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "2,200"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc9603012000003"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-10"
+						},
+						"text" : "Department of Justice"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "10000"
+						},
+						"text" : "U.S. Government - Peace Corps"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "13040"
+						},
+						"text" : "STD control including HIV/AIDS"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "President's Emergency Plan for AIDS Relief - Country Programs"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-10-2010052931"
+					}
+				],
+				"description" : [{
+						"text" : "PEPFAR - The President's Emergency Plan for AIDS Relief is committed to prevent new HIV infections; treat HIV-infected individuals and those orpahned by AIDs."
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "29,211"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "7,003"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc960301200000b"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "22000"
+						},
+						"text" : "Catholic Relief Services"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "52010"
+						},
+						"text" : "Food aid/Food security programmes"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Inland Freight Co of USAID Title II Food Aid for Agriculture/Natural Resource Management, Direct Distribution - HIV"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010047992"
+					}
+				],
+				"description" : [{
+						"text" : "USAID Title II Food Aid for Agriculture/Natural Resource Management, Direct Distribution - HIV through Catholic Relief Services.  Inland Freight Co of Bulgur / Approximate Number of people fed: 1 / Metric Tons: 60."
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "6,000"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "6,000"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc9603012000008"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"transaction" : [{
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "7,000"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "22000"
+						},
+						"text" : "NGO - Non United States Unknown"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "16010"
+						},
+						"text" : "Social/ welfare services"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Social Assistance"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010043888"
+					}
+				],
+				"description" : [{
+						"text" : "Cash or in-kind transfers to the poor or to those suffering from temporary shocks. Health services provided in-kind should be captured under the respective health element(s). [through Poverty to Wealth Creation Association]"
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc9603012000009"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-99"
+						},
+						"text" : "#N/A"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "22000"
+						},
+						"text" : "Frankfurt Zoological Society"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "41030"
+						},
+						"text" : "Bio-diversity"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "African Elephant Conservation"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-99-2010051054"
+					}
+				],
+				"description" : [{
+						"text" : "Aerial support and law enforcement training and recruitment for the protection of elephants in North Luangwa National Park"
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "4,824"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "4,824"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc9603012000005"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"transaction" : [{
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "7,000"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "50000"
+						},
+						"text" : "Enterprise - Non United States Unknown"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "16010"
+						},
+						"text" : "Social/ welfare services"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Social Assistance"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010044067"
+					}
+				],
+				"description" : [{
+						"text" : "Cash or in-kind transfers to the poor or to those suffering from temporary shocks. Health services provided in-kind should be captured under the respective health element(s). [through Josephine Fogg Nursery and Primary School]"
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc960301200000a"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "22000"
+						},
+						"text" : "Catholic Relief Services"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "52010"
+						},
+						"text" : "Food aid/Food security programmes"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Inland Freight Co of USAID Title II Food Aid for Health/Nutrition, Direct Distribution - Non HIV"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010048023"
+					}
+				],
+				"description" : [{
+						"text" : "USAID Title II Food Aid for Health/Nutrition, Direct Distribution - Non HIV through Catholic Relief Services.  Inland Freight Co of Lentils / Metric Tons: 87."
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "8,700"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "8,700"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc960301200000c"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-website" : [{
+						"text" : "https://data.unops.org/index.htm#SegmentCode=ORG&FocusCode=DATA_PROJECTS&EntityCode=PROJECT_ID&EntityValue=00075032"
+					}
+				],
+				"transaction" : [{
+						"description" : [{
+								"text" : "Total partner commitment"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"provider-org" : [{
+								"text" : "Libya"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-01-01"
+								},
+								"text" : "2010"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2010-01-01"
+								},
+								"text" : "116280"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"@" : {
+							"ref" : "00075032_2010_2012"
+						}
+					}, {
+						"description" : [{
+								"text" : "Travel Tickets-International"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "670"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00075032_201203_71605"
+						}
+					}, {
+						"description" : [{
+								"text" : "Sundry"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "9"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00075032_201203_74525"
+						}
+					}, {
+						"description" : [{
+								"text" : "Facilities & Admin - Implement"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "40"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00075032_201203_75105"
+						}
+					}
+				],
+				"budget" : [{
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-01-01"
+								},
+								"text" : "549225"
+							}
+						],
+						"period-end" : [{
+								"text" : "2012"
+							}
+						],
+						"period-start" : [{
+								"text" : "2012"
+							}
+						],
+						"@" : {
+							"type" : "Original"
+						}
+					}, {
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-01-01"
+								},
+								"text" : "116374"
+							}
+						],
+						"period-end" : [{
+								"text" : "2012"
+							}
+						],
+						"period-start" : [{
+								"text" : "2012"
+							}
+						],
+						"@" : {
+							"type" : "Revised"
+						}
+					}
+				],
+				"location" : [{
+						"administrative" : [{
+								"@" : {
+									"country" : "LY"
+								},
+								"text" : "Al Jufrah"
+							}
+						],
+						"location-type" : [{
+								"@" : {
+									"code" : "PCL"
+								}
+							}
+						],
+						"coordinates" : [{
+								"@" : {
+									"precision" : "6",
+									"longitude" : "17.228331000000026000",
+									"latitude" : "26.335100000000001000"
+								}
+							}
+						],
+						"description" : [{
+								"text" : "Libya"
+							}
+						],
+						"name" : [{
+								"text" : "Libya"
+							}
+						]
+					}
+				],
+				"default-tied-status" : [{
+						"@" : {
+							"code" : "5"
+						},
+						"text" : "Untied"
+					}
+				],
+				"default-aid-type" : [{
+						"@" : {
+							"code" : "C01"
+						},
+						"text" : "Project-type interventions"
+					}
+				],
+				"default-finance-type" : [{
+						"@" : {
+							"code" : "110"
+						},
+						"text" : "Aid grant excluding debt reorganisation"
+					}
+				],
+				"default-flow-type" : [{
+						"@" : {
+							"code" : "20"
+						},
+						"text" : "OOF"
+					}
+				],
+				"collaboration-type" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Multilateral"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"percentage" : "100",
+							"code" : "31110"
+						},
+						"text" : "Agricultural policy and administrative management"
+					}
+				],
+				"recipient-region" : [{
+						"@" : {
+							"code" : "189"
+						},
+						"text" : "North of Sahara, regional"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "LY"
+						},
+						"text" : "Libya"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "40",
+							"ref" : "41AAA",
+							"role" : "Implementing"
+						},
+						"text" : "United Nations Office for Project Services"
+					}, {
+						"@" : {
+							"type" : "40",
+							"ref" : "41AAA",
+							"role" : "Accountable"
+						},
+						"text" : "United Nations Office for Project Services"
+					}
+				],
+				"contact-info" : [{
+						"mailing-address" : [{
+								"text" : "UNOPS HQ, PO Box 2695, 2100 Copenhagen, Denmark"
+							}
+						],
+						"email" : [{
+								"text" : "info@unops.org"
+							}
+						],
+						"telephone" : [{
+								"text" : "4535467600"
+							}
+						],
+						"person-name" : [{
+								"text" : "Cillian Domhnall OCATHAIL"
+							}
+						],
+						"organisation" : [{
+								"text" : "United Nations Office for Project Services"
+							}
+						]
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"iso-date" : "2010-04-30",
+							"type" : "start-actual"
+						}
+					}, {
+						"@" : {
+							"iso-date" : "2012-12-31",
+							"type" : "end-actual"
+						}
+					}
+				],
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"description" : [{
+						"@" : {
+							"type" : "1"
+						},
+						"text" : "UNOPS has been requested to provide procurement services for goods and works, capacity building services in human resources management, project management, workshops and training as well as project implementation services to the Libyan Agricultural Research Centre (ARC)."
+					}
+				],
+				"title" : [{
+						"text" : "Procurement services fro the Libyan Agricultural Research Centre (ARC)"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "41AAA-00075032"
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "40",
+							"ref" : "41AAA"
+						},
+						"text" : "United Nations Office for Project Services"
+					}
+				],
+				"@" : {
+					"hierarchy" : "1",
+					"xml:lang" : "en",
+					"last-updated-datetime" : "2013-03-04T06:03:49.353",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc960301200000d"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "50000"
+						},
+						"text" : "Enterprise - Non United States Unknown"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "16010"
+						},
+						"text" : "Social/ welfare services"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Social Assistance"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010044011"
+					}
+				],
+				"description" : [{
+						"text" : "Cash or in-kind transfers to the poor or to those suffering from temporary shocks. Health services provided in-kind should be captured under the respective health element(s). [through David Livingstone High School]"
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "3,699"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "9,000"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc960301200000f"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-website" : [{
+						"text" : "https://data.unops.org/index.htm#SegmentCode=ORG&FocusCode=DATA_PROJECTS&EntityCode=PROJECT_ID&EntityValue=00080636"
+					}
+				],
+				"transaction" : [{
+						"description" : [{
+								"text" : "Total partner commitment"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"provider-org" : [{
+								"text" : "UN/DPKO"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-01-01"
+								},
+								"text" : "2012"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-01-01"
+								},
+								"text" : "1044109"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"@" : {
+							"ref" : "00080636_2012_2012"
+						}
+					}, {
+						"description" : [{
+								"text" : "Travel Tickets-International"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "1572"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00080636_201203_71605"
+						}
+					}, {
+						"description" : [{
+								"text" : "Travel - Other"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "474"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00080636_201203_71635"
+						}
+					}, {
+						"description" : [{
+								"text" : "Hazard Duty Stat Allow-NP-TA"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "1305"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00080636_201203_77165"
+						}
+					}, {
+						"description" : [{
+								"text" : "Appoint-Tk cost-IP Staff-TA"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "3722"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00080636_201203_77306"
+						}
+					}, {
+						"description" : [{
+								"text" : "Appoint-Sub Allow-IP Staff-TA"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "12600"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00080636_201203_77307"
+						}
+					}, {
+						"description" : [{
+								"text" : "Appoint-shipment-IP Staff-TA"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "11200"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00080636_201203_77309"
+						}
+					}, {
+						"description" : [{
+								"text" : "Appointments-Lump Sum-TA"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "8268"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00080636_201203_77323"
+						}
+					}, {
+						"description" : [{
+								"text" : "Daily Subsistence Allow-Intl"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "776"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00080636_201203_71615"
+						}
+					}, {
+						"description" : [{
+								"text" : "Claims and Adjustments"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "1174"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00080636_201203_74515"
+						}
+					}, {
+						"description" : [{
+								"text" : "Sundry"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "616"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00080636_201203_74525"
+						}
+					}, {
+						"description" : [{
+								"text" : "Facilities & Admin - Implement"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "2114"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00080636_201203_75105"
+						}
+					}, {
+						"description" : [{
+								"text" : "Hazard Duty Stat Allow-IP-TA"
+							}
+						],
+						"disbursement-channel" : [{
+								"@" : {
+									"code" : "2"
+								},
+								"text" : "Money is disbursed directly to the implementing institution and managed through a separate bank account"
+							}
+						],
+						"receiver-org" : [""],
+						"provider-org" : [{
+								"@" : {
+									"ref" : "41AAA"
+								},
+								"text" : "United Nations Office for Project Services"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2012-03-01"
+								},
+								"text" : "2012-March"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-03-01"
+								},
+								"text" : "585"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "E"
+								},
+								"text" : "Expenditure"
+							}
+						],
+						"@" : {
+							"ref" : "00080636_201203_77335"
+						}
+					}
+				],
+				"budget" : [{
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-01-01"
+								},
+								"text" : "123120"
+							}
+						],
+						"period-end" : [{
+								"text" : "2012"
+							}
+						],
+						"period-start" : [{
+								"text" : "2012"
+							}
+						],
+						"@" : {
+							"type" : "Original"
+						}
+					}, {
+						"value" : [{
+								"@" : {
+									"currency" : "USD",
+									"value-date" : "2012-01-01"
+								},
+								"text" : "1044109"
+							}
+						],
+						"period-end" : [{
+								"text" : "2012"
+							}
+						],
+						"period-start" : [{
+								"text" : "2012"
+							}
+						],
+						"@" : {
+							"type" : "Revised"
+						}
+					}
+				],
+				"location" : [{
+						"administrative" : [{
+								"@" : {
+									"country" : "LY"
+								},
+								"text" : "Al Jufrah"
+							}
+						],
+						"location-type" : [{
+								"@" : {
+									"code" : "PCL"
+								}
+							}
+						],
+						"coordinates" : [{
+								"@" : {
+									"precision" : "6",
+									"longitude" : "17.228331000000026000",
+									"latitude" : "26.335100000000001000"
+								}
+							}
+						],
+						"description" : [{
+								"text" : "Libya"
+							}
+						],
+						"name" : [{
+								"text" : "Libya"
+							}
+						]
+					}
+				],
+				"default-tied-status" : [{
+						"@" : {
+							"code" : "5"
+						},
+						"text" : "Untied"
+					}
+				],
+				"default-aid-type" : [{
+						"@" : {
+							"code" : "C01"
+						},
+						"text" : "Project-type interventions"
+					}
+				],
+				"default-finance-type" : [{
+						"@" : {
+							"code" : "110"
+						},
+						"text" : "Aid grant excluding debt reorganisation"
+					}
+				],
+				"default-flow-type" : [{
+						"@" : {
+							"code" : "20"
+						},
+						"text" : "OOF"
+					}
+				],
+				"collaboration-type" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Multilateral"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"percentage" : "100",
+							"code" : "15230"
+						},
+						"text" : "Participation in international peacekeeping operations"
+					}
+				],
+				"recipient-region" : [{
+						"@" : {
+							"code" : "189"
+						},
+						"text" : "North of Sahara, regional"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "LY"
+						},
+						"text" : "Libya"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "40",
+							"ref" : "41AAA",
+							"role" : "Accountable"
+						},
+						"text" : "United Nations Office for Project Services"
+					}, {
+						"@" : {
+							"type" : "40",
+							"ref" : "41AAA",
+							"role" : "Implementing"
+						},
+						"text" : "United Nations Office for Project Services"
+					}
+				],
+				"contact-info" : [{
+						"mailing-address" : [{
+								"text" : "UNOPS HQ, PO Box 2695, 2100 Copenhagen, Denmark"
+							}
+						],
+						"email" : [{
+								"text" : "info@unops.org"
+							}
+						],
+						"telephone" : [{
+								"text" : "4535467600"
+							}
+						],
+						"person-name" : [{
+								"text" : "Cillian Domhnall OCATHAIL"
+							}
+						],
+						"organisation" : [{
+								"text" : "United Nations Office for Project Services"
+							}
+						]
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"iso-date" : "2012-01-01",
+							"type" : "start-actual"
+						}
+					}, {
+						"@" : {
+							"iso-date" : "2012-12-31",
+							"type" : "end-actual"
+						}
+					}
+				],
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"description" : [{
+						"@" : {
+							"type" : "1"
+						},
+						"text" : "United Nations Support Mission in Libya (UNSMIL) is the special political mission in Libya and it is providing funding to support humanitarian mine action in the country."
+					}
+				],
+				"title" : [{
+						"text" : "Humanitarian Mine Action Support to Libya (UNSMIL)"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "41AAA-00080636"
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "40",
+							"ref" : "41AAA"
+						},
+						"text" : "United Nations Office for Project Services"
+					}
+				],
+				"@" : {
+					"hierarchy" : "1",
+					"xml:lang" : "en",
+					"last-updated-datetime" : "2013-03-04T06:03:49.353",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc960301200000e"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "22000"
+						},
+						"text" : "Catholic Relief Services"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "52010"
+						},
+						"text" : "Food aid/Food security programmes"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Inland Freight Co of USAID Title II Food Aid for Agriculture/Natural Resource Management, Direct Distribution - Non HIV"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010047993"
+					}
+				],
+				"description" : [{
+						"text" : "USAID Title II Food Aid for Agriculture/Natural Resource Management, Direct Distribution - Non HIV through Catholic Relief Services.  Inland Freight Co of Bulgur / Approximate Number of people fed: 1 / Metric Tons: 90."
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "9,000"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "9,000"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc9603012000010"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "22000"
+						},
+						"text" : "Catholic Relief Services"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "52010"
+						},
+						"text" : "Food aid/Food security programmes"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Ocean Freight of USAID Title II Food Aid for Health/Nutrition, Direct Distribution - HIV"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010048511"
+					}
+				],
+				"description" : [{
+						"text" : "USAID Title II Food Aid for Health/Nutrition, Direct Distribution - HIV through Catholic Relief Services.  Ocean Freight of Lentils / Metric Tons: 58."
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "9,200"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "9,200"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc9603012000011"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "22000"
+						},
+						"text" : "Catholic Relief Services"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "52010"
+						},
+						"text" : "Food aid/Food security programmes"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Ocean Freight of USAID Title II Food Aid for Agriculture/Natural Resource Management, Direct Distribution - HIV"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010048445"
+					}
+				],
+				"description" : [{
+						"text" : "USAID Title II Food Aid for Agriculture/Natural Resource Management, Direct Distribution - HIV through Catholic Relief Services.  Ocean Freight of Bulgur / Approximate Number of people fed: 1 / Metric Tons: 60."
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "9,500"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "9,500"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc9603012000012"
+		},
+		"__v" : 0
+	}{
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"transaction" : [{
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "9,691"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-13"
+						},
+						"text" : "Department of Energy"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "50000"
+						},
+						"text" : "Enterprise - Non United States Unknown"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "32161"
+						},
+						"text" : "Agro-industries"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Chibote Dairy Cooperative Capacity Building Project [Grantee: Chibote Multipurpose Cooperative Society Limited (CMCS)]"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-13-2010000148"
+					}
+				],
+				"description" : [{
+						"text" : "Chibote Multipurpose Cooperative Society Limited (CMCS) markets agricultural products supplied by its members. [Grantee: Chibote Multipurpose Cooperative Society Limited (CMCS)] [Grantee: Chibote Multipurpose Cooperative Society Limited (CMCS)]"
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc9603012000013"
+		},
+		"__v" : 0
+	}, {
+		"iati-activity" : {
+			"iati-activity" : {
+				"activity-status" : [{
+						"@" : {
+							"code" : "2"
+						},
+						"text" : "Implementation"
+					}
+				],
+				"participating-org" : [{
+						"@" : {
+							"type" : "10",
+							"role" : "funding",
+							"ref" : "US-1"
+						},
+						"text" : "United States of America"
+					}, {
+						"@" : {
+							"type" : "10",
+							"role" : "extending",
+							"ref" : "US-1"
+						},
+						"text" : "U.S. Agency for International Development"
+					}, {
+						"@" : {
+							"role" : "implementing",
+							"ref" : "50000"
+						},
+						"text" : "Enterprise - Non United States Unknown"
+					}
+				],
+				"recipient-country" : [{
+						"@" : {
+							"code" : "ZM"
+						},
+						"text" : "Zambia"
+					}
+				],
+				"sector" : [{
+						"@" : {
+							"vocabulary" : "DAC",
+							"code" : "16010"
+						},
+						"text" : "Social/ welfare services"
+					}
+				],
+				"activity-date" : [{
+						"@" : {
+							"type" : "end-planned",
+							"iso-date" : "2010-12-31"
+						},
+						"text" : "2010-12-31"
+					}, {
+						"@" : {
+							"type" : "start-planned",
+							"iso-date" : "2010-01-01"
+						},
+						"text" : "2010-01-01"
+					}
+				],
+				"title" : [{
+						"text" : "Social Assistance"
+					}
+				],
+				"iati-identifier" : [{
+						"text" : "US-1-2010044216"
+					}
+				],
+				"description" : [{
+						"text" : "Cash or in-kind transfers to the poor or to those suffering from temporary shocks. Health services provided in-kind should be captured under the respective health element(s). [through Tree Crops and Horticultural Association]"
+					}
+				],
+				"transaction" : [{
+						"transaction-type" : [{
+								"@" : {
+									"code" : "D"
+								},
+								"text" : "Disbursement"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31"
+								},
+								"text" : "8,003"
+							}
+						],
+						"description" : [{
+								"text" : "2010 CRS transaction"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}, {
+						"description" : [{
+								"text" : "2010 CRS Commitment"
+							}
+						],
+						"value" : [{
+								"@" : {
+									"value-date" : "2010-12-31",
+									"currency" : "USD"
+								},
+								"text" : "10,000"
+							}
+						],
+						"transaction-type" : [{
+								"@" : {
+									"code" : "C"
+								},
+								"text" : "Commitment"
+							}
+						],
+						"transaction-date" : [{
+								"@" : {
+									"iso-date" : "2010-12-31"
+								},
+								"text" : "2010-12-31"
+							}
+						]
+					}
+				],
+				"reporting-org" : [{
+						"@" : {
+							"type" : "10",
+							"ref" : "US"
+						},
+						"text" : "United States Government"
+					}
+				],
+				"@" : {
+					"xml:lang" : "en",
+					"default-currency" : "USD"
+				}
+			}
+		},
+		"_id" : {
+			"str" : "5252ccb0dfc9603012000014"
+		},
+		"__v" : 0
+	}
+]
