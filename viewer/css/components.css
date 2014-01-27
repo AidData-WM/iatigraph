@@ -18,14 +18,15 @@ body {
   padding: 0.5em;
   text-align: center;
   background: #ccc;
+  border-radius: 4px;
 }
 .button:hover {
   background: #aaa;
 }
 .dark .button {
-  background: #667;
-  color: inherit;
+  background: #bbb;
+  color: #333;
 }
 .dark .button:hover {
-  background: #778;
+  background: #ccc;
 }

@@ -29,8 +29,8 @@ body {
 
 .vis-control {
   position: absolute;
-  top: 3em;  /* 2 for top buttons, 1 floating */
-  left: 1em;
+  top: 2.5em;  /* 2 for top buttons, .5 floating */
+  left: .5em;
 }
 
 .info {
