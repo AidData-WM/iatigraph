@@ -33,9 +33,24 @@ def show_activity(id=None):
     if actmap.get(id, None) and actmap[id].get('edges', None):
         for a in actmap[id]['edges']:
             if a['type'] == 'receiver':
-                activity.provider.append(a['foreignProjectId'])
+                a2 = {id: a['foreignProjectId']}
+                if activities.get(a['foreignProjectId'], None):
+                    a2['exists'] = 1
+                    a2['name'] = activities[a['foreignProjectId']].name
+                else:
+                    a2['exists'] = 0
+                
+                activity.recipient.append(a2)
+                
             if a['type'] == 'provider':
-                activity.recipient.append(a['foreignProjectId'])
+                a2 = {id: a['foreignProjectId']}
+                if activities.get(a['foreignProjectId'], None):
+                    a2['exists'] = 1
+                    a2['name'] = activities[a['foreignProjectId']].name
+                else:
+                    a2['exists'] = 0
+                
+                activity.provider.append(a2)
         
 
     return jsonify(results = activity.to_array())
@@ -43,7 +58,7 @@ def show_activity(id=None):
 
 
 @app.route("/search/")
-@app.route("/search/<term>")
+@app.route("/search/<path:term>")
 def search(term=None):
     result = {}
 
