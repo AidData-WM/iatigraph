@@ -1,6 +1,13 @@
-<div class="search">
+<div class="search<% if(results) { %> with-results<% } %>">
   <h1>Search</h1>
 
-  <input type="text" placeholder='Search for an IATI activity' />
-  <a href="#graph/blah" class="button icon-search"> Search</a>
+  <input id="search-text" type="text" placeholder='Search for an IATI activity' />
+  <a href="#" class="button icon-search" id="search-button"> Search</a>
+  <% if(results) { %>
+    <ul class="results">
+      <% _.each(results, function(result) { %>
+        <li><%= result %></li>
+      <% }); %>
+    </ul>
+  <% } %>
 </div>
