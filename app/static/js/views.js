@@ -28,7 +28,7 @@ site.SearchView = Backbone.View.extend({
 
 site.WelcomeView = Backbone.View.extend({
   render: function() {
-    this.setElement($(this.template()));
+    this.setElement($('<div>').html(this.template()));
     return this;
   },
 });
