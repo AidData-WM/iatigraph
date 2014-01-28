@@ -1,3 +1,6 @@
+//note to reader: i have no idea what functions are. that explains the code below
+
+
 var mongoClient = require('mongodb').MongoClient;
 var async = require('async');
 var fs = require('fs');
@@ -42,10 +45,9 @@ mongoClient.connect('mongodb://127.0.0.1:27017/iatiToMongoDev', function(err, db
 						nodes[nodeProjectId] = nodes[nodeProjectId] || {};
 						nodes[nodeProjectId].edges = nodes[nodeProjectId].edges || [];
 						nodes[nodeProjectId].edges.push({
-							type:'transacted',
+							type:'receiver',
 							foreignProjectId: foreignProjectKey
 						});
-						console.log(foreignProjectKey);
 						activities.findOne({'iati-activity.iati-activity.iati-identifier.text': foreignProjectKey}, function(err, activity) {
 							if (activity) {
 								projects[activity['iati-activity']['iati-activity']['iati-identifier'][0]['text']] = activity['iati-activity']['iati-activity']; 
@@ -65,12 +67,62 @@ mongoClient.connect('mongodb://127.0.0.1:27017/iatiToMongoDev', function(err, db
 					callback();
 				});
 			});
+		},
+				function(callback) {
+			//parallel: grab all distinct provider activity IDs
+			activities.distinct('iati-activity.iati-activity.transaction.provider-org.@.provider-activity-id', function(err, data) {
+				if(err) {
+					throw err;
+				}
+				//get projects in which each one occurs
+				async.each(data, function (foreignProjectKey, callback) {
+					var nodeProjectId
+					activities.findOne({'iati-activity.iati-activity.transaction.provider-org.@.provider-activity-id':foreignProjectKey}, {'iati-activity.iati-activity.iati-identifier.text':1}, function (err, data) {
+						if (err) {
+							throw err;
+						}
+						nodeProjectId = data['iati-activity']['iati-activity']['iati-identifier'][0]['text'] || '';
+						nodes[nodeProjectId] = nodes[nodeProjectId] || {};
+						nodes[nodeProjectId].edges = nodes[nodeProjectId].edges || [];
+						nodes[nodeProjectId].edges.push({
+							type:'provider',
+							foreignProjectId: foreignProjectKey
+						});
+						activities.findOne({'iati-activity.iati-activity.transaction.provider-org.@.provider-activity-id':foreignProjectKey}, function (err, data) {
+							projects[data['iati-activity']['iati-activity']['iati-identifier'][0]['text']] = data['iati-activity']['iati-activity'];
+
+							activities.findOne({'iati-activity.iati-activity.iati-identifier.text': foreignProjectKey}, function(err, activity) {
+							if (activity) {
+									projects[activity['iati-activity']['iati-activity']['iati-identifier'][0]['text']] = activity['iati-activity']['iati-activity']; 
+								}	
+								callback();
+							})
+						});
+						
+
+						
+						
+					})
+					
+				},
+				//end of distinct receiver activity ID section
+				function(err) {
+					if (err) {
+						throw err;
+					}
+					callback();
+				});
+			});
 		}
 		],
 		//all parallel activities finished
 		function (err) {
 			if (err) {
 				throw err;
+			}
+			var test = [];
+			for (p in projects) {
+				test.push(p);
 			}
 			fs.writeFileSync('./results/graph.json', JSON.stringify(nodes));
 			fs.writeFileSync('./results/projects.json', JSON.stringify(projects));
