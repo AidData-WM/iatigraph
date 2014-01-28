@@ -1,7 +1,8 @@
 from flask import Flask, render_template, jsonify
 
 from models import *
-from sample_data import *
+#from sample_data import *
+from loaddata import *
 
 app = Flask(__name__)
 
@@ -20,12 +21,21 @@ def template(template_name):
 def show_activity(id=None):
 
     if not id:
-        id = 2015       # just a default
+        id = 'GB-CHC-283302-GDRC08'       # just a default
 
-    if not sample_activity.get(id, None):
-        id = 2015       # will be a 404 error eventually...
+    if not activities.get(id, None):
+        id = 'GB-CHC-283302-GDRC08'       # will be a 404 error eventually...
 
-    return jsonify(results = sample_activity[id].to_array())
+    activity = activities[id]
+
+    for a in actmap[id]['edges']:
+        if a['type'] == 'receiver':
+            activity.provider.append(a['foreignProjectId'])
+        if a['type'] == 'provider':
+            activity.recipient.append(a['foreignProjectId'])
+        
+
+    return jsonify(results = activity.to_array())
     # we use an array right now, but this could easily turn into an ORM query
 
 
@@ -39,9 +49,9 @@ def search(term=None):
 
     # super slow array search. one day it'll be a lightning fast database search ;)
     hits = []
-    for a in sample_activity:
-        if sample_activity[a].name.find(term) != -1 or sample_activity[a].description.find(term) != -1:
-            hits.append(sample_activity[a])
+    for a in activities:
+        if activities[a].name.find(term) != -1 or activities[a].description.find(term) != -1:
+            hits.append(activities[a])
 
     result['results'] = len(hits)
     result['activities'] = []
@@ -49,3 +59,6 @@ def search(term=None):
         result['activities'].append(h.id)
 
     return jsonify(results = result)
+
+app.run(debug=True)
+
