@@ -1685,22 +1685,30 @@
 	}
 };
 
-var searchId = ""; //activityId to search	
+var searchId = "GB-CHC-1055436-GTF"; //activityId to search	
 for (var key in data2) {
-    alert("iati-identifier -> " + data2[key]["iati-identifier"][0].text);
-    alert("title -> " + data2[key].title[0].text);
-    alert("description -> " + data2[key].description[0].text);
-    
-    //Question - shall use linkage information in graph.json or provider/receiver info in projects.json?
-    for (var i in data2[key]["transaction"]) {
-    	var providerOrg = data2[key]["transaction"][i]["provider-org"];
-    	var recipientOrg = data2[key]["transaction"][i]["receiver-org"]; 
-    	if (providerOrg != undefined) {
-    		alert("providerOrg "+providerOrg[0]["@"]["provider-activity-id"]);
-    	}
-    	if (recipientOrg != undefined) {
-    		alert("recipientOrg "+recipientOrg[0].text);
-    	}
-    }
+	var thisIdentifier = data2[key]["iati-identifier"][0].text;
+	if (thisIdentifier == searchId) {
+	    alert("iati-identifier -> " + thisIdentifier);
+	    alert("title -> " + data2[key].title[0].text);
+	    alert("description -> " + data2[key].description[0].text);
+	    
+	    //Question - shall use linkage information in graph.json or provider/receiver info in projects.json?
+	    for (var i in data2[key]["transaction"]) {
+	    	var providerOrg = data2[key]["transaction"][i]["provider-org"];
+	    	var recipientOrg = data2[key]["transaction"][i]["receiver-org"]; 
+	    	if (providerOrg != undefined) {
+	    		var providerActivityId = providerOrg[0]["@"]["provider-activity-id"];
+	    		if (providerActivityId != null) {
+	    			alert("providerOrg "+providerActivityId);
+	    		} else {
+	    			alert("providerOrg ref "+providerOrg[0]["@"]["ref"]);
+	    		}
+	    	}
+	    	if (recipientOrg != undefined) {
+	    		alert("recipientOrg "+recipientOrg[0].text);
+	    	}
+	    }
+	}
 }
 
