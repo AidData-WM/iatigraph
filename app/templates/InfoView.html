@@ -14,11 +14,24 @@
 
   <div class="details"><!-- about the focussed node -->
     <h3>Project Details</h3>
-    <h4><%= project.name %></h4>
+    <h4><%= project.name %> <small><%= project.recipient_country %></small></h4>
+    <p class="id"><%= project.sector %></p>
+    <p><%= project.description %></p>
   </div>
   <div class="parents">
     <h3>Parents</h3><!-- should probably find better names... -->
     <% _.each(project.provider, function(parent) { %>
+      <h4 class="<% if(! parent.exists) { %>not-<% } %>existing">
+        <% if (parent.name) { %>
+          <%= parent.name %>
+        <% } else { %>
+          [no name]
+        <% } %>
+      </h4>
+      <p class="id"><a href="#graph/<%= parent.id %>"><%= parent.id %></a></p>
+    <% }); %>
+    <h3>Final Parents</h3>
+    <% _.each(project.final_parents, function(parent) { %>
       <h4 class="<% if(! parent.exists) { %>not-<% } %>existing">
         <% if (parent.name) { %>
           <%= parent.name %>
@@ -33,6 +46,17 @@
     <% console.log(project) %>
     <h3>Children</h3>
     <% _.each(project.recipient, function(child) { %>
+      <h4 class="<% if(! child.exists) { %>not-<% } %>existing">
+        <% if (child.name) { %>
+          <%= child.name %>
+        <% } else { %>
+          [no name]
+        <% } %>
+      </h4>
+      <p class="id"><a href="#graph/<%= child.id %>"><%= child.id %></a></p>
+    <% }); %>
+    <h3>Final Children</h3>
+    <% _.each(project.final_children, function(child) { %>
       <h4 class="<% if(! child.exists) { %>not-<% } %>existing">
         <% if (child.name) { %>
           <%= child.name %>
