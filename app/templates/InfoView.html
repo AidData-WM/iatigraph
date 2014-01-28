@@ -21,13 +21,15 @@
   <div class="parents">
     <h3>Parents</h3><!-- should probably find better names... -->
     <% _.each(project.provider, function(parent) { %>
-      <%= parent %>
+      <h4 class="<% if(parent.exists) { %>not-<% } %>existing"><%= parent.name %></h4>
+      <p>id: <a href="#graph/<%= parent.id %>"><%= parent.id %></a></p>
     <% }); %>
   </div>
   <div class="children">
     <h3>Children</h3>
     <% _.each(project.recipients, function(child) { %>
-      <%= child %>
+      <h4 class="<% if(child.exists) { %>not-<% } %>existing"><%= child.name %></h4>
+      <p>id: <a href="#graph/<%= child.id %>"><%= child.id %></a></p>
     <% }); %>
   </div>
 

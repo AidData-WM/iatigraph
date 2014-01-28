@@ -6,7 +6,7 @@
   <% if(status === 'results') { %>
     <ul class="results">
       <% _.each(activities, function(activity) { %>
-        <li><a href="#graph/<%= activity %>">activity</a></li>
+        <li><a href="#graph/<%= activity.id %>"><%= activity.name %> <small>(<%= activity.id %>)</small></a></li>
       <% }); %>
     </ul>
   <% } %>
