@@ -49,6 +49,9 @@ for m in actmap:
     edges = actmap[m]['edges']
 
     for e in edges:
+        if e['foreignProjectId'] == 'GB-COH-06368740-DIPRA 3':
+            e['foreignProjectId'] = 'GB-COH-06368740-DIPRA-3'
+    
         if e['foreignProjectId'] == m:
             pass
             
