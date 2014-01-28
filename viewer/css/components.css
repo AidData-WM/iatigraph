@@ -34,3 +34,6 @@ body {
 .dark .button:hover {
   background: #ccc;
 }
+.dark .button.active:hover {
+  background: #889;
+}

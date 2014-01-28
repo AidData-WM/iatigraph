@@ -10,39 +10,19 @@
     <link rel="stylesheet" href="css/shame.css" />
   </head>
   <body>
-    <div class="map dark"><!-- aka the left half of the screen -->
-      <nav class="map-switcher">
-        <a href="#" class="button active">Country</a>
-        <a href="#" class="button">Organization</a>
-      </nav>
-
-      <svg class="vis"></svg><!-- we doing this svg??? -->
-
-      <!--<div class="vis-control"><!- - buttons n stuff etc - ->
-        <a href="#" class="button icon-arrow-up"><span class="visually-hidden focussable">up a level</span></a>
-        <a href="#" class="button icon-arrow-down"><span class="visually-hidden focussable">child projects</span></a>
-      </div>--> 
+    <div class="map dark"><!-- aka the left half of the screen --> 
     </div>
  
     <div class="info"><!-- the right half of the screen -->
-      <h2>Info</h2>
-      <div class="details"><!-- about the focussed node -->
-        <h3>Project Details</h3>
-      </div>
-      <div class="parents">
-        <h3>Parents</h3><!-- should probably find better names... -->
-      </div>
-      <div class="children">
-        <h3>Children</h3>
-      </div>
     </div>
 
     <!-- all the scripts!! -->
     <script src="js/vendor/zepto.js"></script>
+    <script src="js/vendor/zepto-deferred.js"></script>
     <script src="js/vendor/d3.v3.js"></script>
     <script src="js/vendor/underscore.js"></script>
     <script src="js/vendor/backbone.js"></script>
-    <script src="data/mock-data.js"></script>
+
     <script src="js/node-view.js"></script><!-- our stuff! -->
     <script src="js/main.js"></script><!-- our stuff! -->
   </body>
