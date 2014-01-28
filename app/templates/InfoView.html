@@ -1,17 +1,34 @@
 <h2>Info</h2>
-<div class="details"><!-- about the focussed node -->
-  <h3>Project Details</h3>
-  <h4>Name: <%= project.name %></h4>
-</div>
-<div class="parents">
-  <h3>Parents</h3><!-- should probably find better names... -->
-  <% _.each(project.parents, function(parent) { %>
-    <%= parent %>
-  <% }); %>
-</div>
-<div class="children">
-  <h3>Children</h3>
-  <% _.each(project.children, function(child) { %>
-    <%= child %>
-  <% }); %>
-</div>
+
+<% if (status === 'loading') { %>
+
+  <div class="loading">
+    <p>Loading....</p>
+  </div>
+
+<% } else if (status === 'error') { %>
+
+  <div class="error">
+    <p>Not Found</p>
+  </div>
+
+<% } else  { %>
+
+  <div class="details"><!-- about the focussed node -->
+    <h3>Project Details</h3>
+    <h4>Name: <%= project.name %></h4>
+  </div>
+  <div class="parents">
+    <h3>Parents</h3><!-- should probably find better names... -->
+    <% _.each(project.provider, function(parent) { %>
+      <%= parent %>
+    <% }); %>
+  </div>
+  <div class="children">
+    <h3>Children</h3>
+    <% _.each(project.recipients, function(child) { %>
+      <%= child %>
+    <% }); %>
+  </div>
+
+<% } %>

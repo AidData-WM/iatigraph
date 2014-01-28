@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, abort
 
 from models import *
 from sample_data import *
@@ -16,14 +16,14 @@ def template(template_name):
 
 
 @app.route("/activity/")
-@app.route("/activity/<id>")
+@app.route("/activity/<int:id>")
 def show_activity(id=None):
 
     if not id:
-        id = 2015       # just a default
+        abort(404)
 
     if not sample_activity.get(id, None):
-        id = 2015       # will be a 404 error eventually...
+        abort(404)
 
     return jsonify(results = sample_activity[id].to_array())
     # we use an array right now, but this could easily turn into an ORM query
