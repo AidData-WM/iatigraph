@@ -43,7 +43,3 @@ def search(term=None):
         result['activities'].append(h.id)
 
     return jsonify(results = result)
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
