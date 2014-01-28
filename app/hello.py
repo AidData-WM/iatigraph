@@ -64,5 +64,7 @@ def search(term=None):
 
     return jsonify(results = result)
 
-#app.run(debug=True)
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
