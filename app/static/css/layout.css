@@ -9,8 +9,6 @@ body {
   left: 0;
   bottom: 0;
   width: 50%;  /* match .info margin-left */
-  background: #445;
-  color: #ccc;
 }
 
 .map-switcher {

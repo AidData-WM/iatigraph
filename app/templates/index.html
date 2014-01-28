@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>IATI Graph Explorer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/layout.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/shame.css') }}" />
+  </head>
+  <body>
+    <div class="map dark"><!-- aka the left half of the screen -->
+      <p class="loading"><i>Loading App...</i></p>
+    </div>
+ 
+    <div class="info"><!-- the right half of the screen -->
+    </div>
+
+    <!-- all the scripts!! -->
+    <script src="{{ url_for('static', filename='js/vendor/zepto.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vendor/zepto-deferred.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vendor/d3.v3.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vendor/underscore.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vendor/backbone.js') }}"></script>
+
+    <!-- our stuff! -->
+    <script src="{{ url_for('static', filename='js/node-view.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/views.js') }}"></script>
+  </body>
+</html>

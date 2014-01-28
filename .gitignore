@@ -1,1 +1,3 @@
 networkSearch/node_modules
+
+*.py[co]

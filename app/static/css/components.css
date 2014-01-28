@@ -12,16 +12,34 @@ body {
   color: #445;
 }
 
+input[type="text"],
 .button {
   display: inline-block;
   font-size: 0.8em;
   padding: 0.5em;
   text-align: center;
+  color: #222;
   background: #ccc;
   border-radius: 4px;
+  border: 1px solid #999;
+}
+input[type="text"] {
+  border-width: 1px 0 0 1px;
+}
+input[type="text"]:focus {
+  outline: none;
+  background: #ddd;
+}
+.button {
+  border-width: 0 1px 1px 0;
 }
 .button:hover {
   background: #aaa;
+}
+.button:active {
+  position: relative;
+  top:1px;
+  border-width: 1px 0 0 1px;
 }
 .dark .button {
   background: #bbb;

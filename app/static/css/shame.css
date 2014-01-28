@@ -27,6 +27,10 @@
 .icon-arrow-down:before {
   content: "\76";
 }
+.icon-search:before {
+  content: "\71";
+}
+
 
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
@@ -58,6 +62,12 @@
     width: auto;
 }
 
+.loading,
+.search {
+  padding-top: 10%;
+  text-align: center;
+}
+
 
 .map-switcher a {
   display: block;
@@ -68,6 +78,9 @@
   width: 50%;  /* update widths when more links are added */
   float: left;
   border-radius: 0;
+}
+.map-switcher a:active {
+  top:0;
 }
 
 .vis-control a {
