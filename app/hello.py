@@ -21,18 +21,21 @@ def template(template_name):
 def show_activity(id=None):
 
     if not id:
-        id = 'GB-CHC-283302-GDRC08'       # just a default
+        #id = 'GB-CHC-283302-GDRC08'       # just a default
+        id = 'GB-COH-06368740-DIPRA'
 
     if not activities.get(id, None):
-        id = 'GB-CHC-283302-GDRC08'       # will be a 404 error eventually...
+        return "Not found"
+        #id = 'GB-COH-06368740-DIPRA'       # will be a 404 error eventually...
 
     activity = activities[id]
 
-    for a in actmap[id]['edges']:
-        if a['type'] == 'receiver':
-            activity.provider.append(a['foreignProjectId'])
-        if a['type'] == 'provider':
-            activity.recipient.append(a['foreignProjectId'])
+    if actmap.get(id, None) and actmap[id].get('edges', None):
+        for a in actmap[id]['edges']:
+            if a['type'] == 'receiver':
+                activity.provider.append(a['foreignProjectId'])
+            if a['type'] == 'provider':
+                activity.recipient.append(a['foreignProjectId'])
         
 
     return jsonify(results = activity.to_array())
