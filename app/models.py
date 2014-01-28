@@ -53,7 +53,7 @@ class Activity:
             arr['recipient'].append(r.to_array())
         """
         arr['provider'] = list(self.provider.values())
-        arr['receipient'] = list(self.recipient.values())
+        arr['recipient'] = list(self.recipient.values())
 
         return arr
 
