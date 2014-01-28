@@ -11,12 +11,19 @@ site.SearchView = Backbone.View.extend({
 
   events: {
     'click #search-button': 'search',
+    'keypress #search-text': 'enter_on_submit',
   },
 
   search: function() {
     var term = $('#search-text').val();
     site.router.navigate('search/' + term, {trigger: true})
     return false;
+  },
+
+  enter_on_submit: function(e) {
+    if (e.keyCode === 13) {
+      this.search();
+    }
   },
 
 });
