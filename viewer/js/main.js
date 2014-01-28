@@ -71,6 +71,13 @@ site.SearchView = Backbone.View.extend({
   },
 });
 
+site.WelcomeView = Backbone.View.extend({
+  render: function() {
+    this.el = $(this.template());
+    return this;
+  },
+});
+
 site.GraphView = Backbone.View.extend({
   render: function() {
     this.el = $(this.template());
@@ -80,7 +87,7 @@ site.GraphView = Backbone.View.extend({
 
 site.InfoView = Backbone.View.extend({
   render: function() {
-    this.el = $(this.template({project: {}}));
+    this.el = $(this.template({project: {name: 'Some great project'}}));
     return this;
   },
 });
@@ -90,7 +97,7 @@ site.InfoView = Backbone.View.extend({
 // boring init stuff
 
 $(document).on('ready', function() {
-  site.load_templates(['SearchView', 'GraphView', 'InfoView'], function() {
+  site.load_templates(['SearchView', 'WelcomeView', 'GraphView', 'InfoView'], function() {
     site.router = new site.Router();
     Backbone.history.start();
   });
