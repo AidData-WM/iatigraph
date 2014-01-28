@@ -46,13 +46,13 @@ site.Router = Backbone.Router.extend({
   graph: function(activity_id) {
     site.graph_view = new site.GraphView();
     site.info_view = new site.InfoView();
+    site.components.map.html(site.graph_view.render({status:'loading'}).el);
+    site.components.info.html(site.info_view.render({status:'loading'}).el);
     $.getJSON('/activity/' + activity_id).then(function(data) {
-      console.log(data);
+      site.components.info.html(site.info_view.render({status:'success', project:data.results}).el);
     }, function(err) {
-      console.log(err);
+      site.components.info.html(site.info_view.render({status:'error', code:err.status}).el);
     });
-    site.components.map.html(site.graph_view.render().el);
-    site.components.info.html(site.info_view.render().el);
     go_nodes();  // this make the (sketchy) d3 stuff go... should be backbonified
   },
 });

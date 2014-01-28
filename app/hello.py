@@ -17,7 +17,7 @@ def template(template_name):
 
 
 @app.route("/activity/")
-@app.route("/activity/<id>")
+@app.route("/activity/<int:id>")
 def show_activity(id=None):
 
     if not id:
@@ -25,7 +25,7 @@ def show_activity(id=None):
         id = 'GB-COH-06368740-DIPRA'
 
     if not activities.get(id, None):
-        return "Not found"
+        return "Not found", 404
         #id = 'GB-COH-06368740-DIPRA'       # will be a 404 error eventually...
 
     activity = activities[id]

@@ -41,8 +41,8 @@ site.GraphView = Backbone.View.extend({
 });
 
 site.InfoView = Backbone.View.extend({
-  render: function() {
-    this.setElement($(this.template({project: {name: 'Some great project'}})));
+  render: function(results) {
+    this.setElement($('<div>').html(this.template(results)));
     return this;
   },
 });
