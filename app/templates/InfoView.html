@@ -19,14 +19,27 @@
   <div class="parents">
     <h3>Parents</h3><!-- should probably find better names... -->
     <% _.each(project.provider, function(parent) { %>
-      <h4 class="<% if(parent.exists) { %>not-<% } %>existing"><%= parent.name %></h4>
+      <h4 class="<% if(! parent.exists) { %>not-<% } %>existing">
+        <% if (parent.name) { %>
+          <%= parent.name %>
+        <% } else { %>
+          [no name]
+        <% } %>
+      </h4>
       <p class="id"><a href="#graph/<%= parent.id %>"><%= parent.id %></a></p>
     <% }); %>
   </div>
   <div class="children">
+    <% console.log(project) %>
     <h3>Children</h3>
     <% _.each(project.recipient, function(child) { %>
-      <h4 class="<% if(child.exists) { %>not-<% } %>existing"><%= child.name %></h4>
+      <h4 class="<% if(! child.exists) { %>not-<% } %>existing">
+        <% if (child.name) { %>
+          <%= child.name %>
+        <% } else { %>
+          [no name]
+        <% } %>
+      </h4>
       <p class="id"><a href="#graph/<%= child.id %>"><%= child.id %></a></p>
     <% }); %>
   </div>

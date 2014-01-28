@@ -109,6 +109,12 @@
   text-transform: uppercase;
   font-weight: normal;
 }
+.info h4.existing {
+  color: #393;
+}
+.info h4.not-existing {
+  color: #a66;
+}
 
 .info .id {
   margin: 0;
