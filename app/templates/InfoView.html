@@ -1,5 +1,3 @@
-<h2>Info</h2>
-
 <% if (status === 'loading') { %>
 
   <div class="loading">
@@ -16,20 +14,20 @@
 
   <div class="details"><!-- about the focussed node -->
     <h3>Project Details</h3>
-    <h4>Name: <%= project.name %></h4>
+    <h4><%= project.name %></h4>
   </div>
   <div class="parents">
     <h3>Parents</h3><!-- should probably find better names... -->
     <% _.each(project.provider, function(parent) { %>
       <h4 class="<% if(parent.exists) { %>not-<% } %>existing"><%= parent.name %></h4>
-      <p>id: <a href="#graph/<%= parent.id %>"><%= parent.id %></a></p>
+      <p class="id"><a href="#graph/<%= parent.id %>"><%= parent.id %></a></p>
     <% }); %>
   </div>
   <div class="children">
     <h3>Children</h3>
-    <% _.each(project.recipients, function(child) { %>
+    <% _.each(project.recipient, function(child) { %>
       <h4 class="<% if(child.exists) { %>not-<% } %>existing"><%= child.name %></h4>
-      <p>id: <a href="#graph/<%= child.id %>"><%= child.id %></a></p>
+      <p class="id"><a href="#graph/<%= child.id %>"><%= child.id %></a></p>
     <% }); %>
   </div>
 
