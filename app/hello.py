@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, render_template, jsonify
 
 from models import *
 from sample_data import *
@@ -7,7 +7,13 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return render_template('index.html')
+
+
+@app.route("/templates/<path:template_name>")
+def template(template_name):
+    return render_template(template_name)
+
 
 @app.route("/activity/")
 @app.route("/activity/<id>")
