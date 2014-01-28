@@ -77,7 +77,7 @@ def search(term=None):
     result['results'] = len(hits)
     result['activities'] = []
     for h in hits:
-        result['activities'].append(h.id)
+        result['activities'].append({'id': h.id, 'name': h.name})
 
     return jsonify(results = result)
 
