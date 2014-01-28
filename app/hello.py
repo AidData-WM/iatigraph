@@ -29,13 +29,14 @@ def show_activity(id=None):
     # we use an array right now, but this could easily turn into an ORM query
 
 
+@app.route("/search/")
 @app.route("/search/<term>")
 def search(term=None):
     result = {}
 
     if not term:
         result['results'] = 0
-        return jsonify(resuls = results)
+        return jsonify(results = result)
 
     # super slow array search. one day it'll be a lightning fast database search ;)
     hits = []
