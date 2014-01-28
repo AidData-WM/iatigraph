@@ -1,11 +1,13 @@
+import os
 import json
-from models import *
+from flask import current_app
+from .models import *
 
 print("Loading projects...")
-projects = json.load(open('../networkSearch/results/projects.json', errors='replace'))
+projects = json.load(open('networkSearch/results/projects.json', errors='replace'))
 
 print("Loading graph...")
-actmap = json.load(open('../networkSearch/results/graph.json', encoding='UTF-8', errors='replace'))
+actmap = json.load(open('networkSearch/results/graph.json', encoding='UTF-8', errors='replace'))
 
 activities = {}
 for pid in projects:

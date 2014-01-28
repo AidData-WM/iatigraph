@@ -1,10 +1,8 @@
-from flask import Flask, render_template, jsonify
-
-from models import *
+from flask import render_template, jsonify
+from . import app
+from .models import *
 #from sample_data import *
-from loaddata import *
-
-app = Flask(__name__)
+from .loaddata import *
 
 @app.route("/")
 def hello():
