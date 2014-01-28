@@ -22,5 +22,28 @@ def show_activity(id=None):
     return jsonify(results = sample_activity[id].to_array())
     # we use an array right now, but this could easily turn into an ORM query
 
+
+@app.route("/search/<term>")
+def search(term=None):
+    result = {}
+
+    if not term:
+        result['results'] = 0
+        return jsonify(resuls = results)
+
+    # super slow array search. one day it'll be a lightning fast database search ;)
+    hits = []
+    for a in sample_activity:
+        if sample_activity[a].name.find(term) != -1 or sample_activity[a].description.find(term) != -1:
+            hits.append(sample_activity[a])
+
+    result['results'] = len(hits)
+    result['activities'] = []
+    for h in hits:
+        result['activities'].append(h.id)
+
+    return jsonify(results = result)
+
+
 if __name__ == "__main__":
     app.run(debug=True)
