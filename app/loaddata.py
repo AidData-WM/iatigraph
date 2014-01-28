@@ -39,3 +39,43 @@ for pid in projects:
                 a.sector = "%s%s \n" % (a.sector, s.get('text', ""))
         
     activities[pid] = a
+
+for m in actmap:
+    activity = activities.get(m, None)
+
+    if not activity:
+        continue
+        
+    edges = actmap[m]['edges']
+
+    for e in edges:
+        if e['type'] == 'receiver':
+            a2 = {'id': e['foreignProjectId']}
+            a3 = {'id': activity.id}
+            a3['name'] = activity.name
+            a3['exists'] = 1
+            if activities.get(e['foreignProjectId'], None):
+                a2['exists'] = 1
+                a2['name'] = activities[e['foreignProjectId']].name
+                activities[e['foreignProjectId']].provider[activity.id] = a3
+            else:
+                a2['exists'] = 0
+
+            activity.recipient[e['foreignProjectId']] = a2            
+            
+                
+        if e['type'] == 'provider':
+            a2 = {'id': e['foreignProjectId']}
+            a3 = {'id': activity.id}
+            a3['name'] = activity.name
+            a3['exists'] = 1
+            if activities.get(e['foreignProjectId'], None):
+                a2['exists'] = 1
+                a2['name'] = activities[e['foreignProjectId']].name
+                activities[e['foreignProjectId']].recipient[activity.id] = a3
+            else:
+                a2['exists'] = 0
+            
+            activity.provider[e['foreignProjectId']] = a2
+
+
