@@ -17,6 +17,7 @@ class Activity:
         self.provider = []
         self.recipient = []
 
+    """
     def add_provider(self, activity, amount=None, date=None):
         txn = Transaction()
         txn.origin_activity = activity
@@ -31,6 +32,7 @@ class Activity:
 
     def add_recipient(self, activity, amount=None, date=None):
         return activity.add_provider(self, amount, date)
+    """
         
     def to_array(self):
         arr = {}
@@ -41,6 +43,7 @@ class Activity:
         arr['recipient_country'] = self.recipient_country
         arr['sector'] = self.sector
 
+        """
         arr['provider'] = []
         for p in self.provider:
             arr['provider'].append(p.to_array())
@@ -48,6 +51,9 @@ class Activity:
         arr['recipient'] = []
         for r in self.recipient:
             arr['recipient'].append(r.to_array())
+        """
+        arr['provider'] = self.provider
+        arr['receipient'] = self.recipient
 
         return arr
 
