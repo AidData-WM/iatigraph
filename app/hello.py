@@ -53,11 +53,34 @@ def show_activity(id=None):
                     a2['exists'] = 0
                 
                 activity.provider.append(a2)
-    """        
+    """
 
-    return jsonify(results = activity.to_array())
+    results = activity.to_array()
+    results['final_parents'] = get_parents(activity, [])
+    results['final_children'] = get_children(activity, [])
+    
+    return jsonify(results = results)
     # we use an array right now, but this could easily turn into an ORM query
 
+def get_parents(activity, tree):
+
+    for p in activity.provider:
+        p = activities.get(p, None)
+        if p and p.id != activity.id:
+            tree.append({'id': p.id, 'name': p.name})
+            tree = get_parents(p, tree)
+
+    return tree
+
+def get_children(activity, tree):
+
+    for r in activity.recipient:
+        r = activities.get(r, None)
+        if r and r.id != activity.id:
+            tree.append({'id': r.id, 'name': r.name})
+            tree = get_children(r, tree)
+
+    return tree
 
 @app.route("/search/")
 @app.route("/search/<path:term>")

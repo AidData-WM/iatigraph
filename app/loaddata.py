@@ -49,7 +49,10 @@ for m in actmap:
     edges = actmap[m]['edges']
 
     for e in edges:
-        if e['type'] == 'receiver':
+        if e['foreignProjectId'] == m:
+            pass
+            
+        elif e['type'] == 'receiver':
             a2 = {'id': e['foreignProjectId']}
             a3 = {'id': activity.id}
             a3['name'] = activity.name
@@ -64,7 +67,7 @@ for m in actmap:
             activity.recipient[e['foreignProjectId']] = a2            
             
                 
-        if e['type'] == 'provider':
+        elif e['type'] == 'provider':
             a2 = {'id': e['foreignProjectId']}
             a3 = {'id': activity.id}
             a3['name'] = activity.name
