@@ -30,10 +30,12 @@ def show_activity(id=None):
 
     activity = activities[id]
 
+    """
+    # Moved to loaddata.py so we can build bi-directional links
     if actmap.get(id, None) and actmap[id].get('edges', None):
         for a in actmap[id]['edges']:
             if a['type'] == 'receiver':
-                a2 = {id: a['foreignProjectId']}
+                a2 = {'id': a['foreignProjectId']}
                 if activities.get(a['foreignProjectId'], None):
                     a2['exists'] = 1
                     a2['name'] = activities[a['foreignProjectId']].name
@@ -43,7 +45,7 @@ def show_activity(id=None):
                 activity.recipient.append(a2)
                 
             if a['type'] == 'provider':
-                a2 = {id: a['foreignProjectId']}
+                a2 = {'id': a['foreignProjectId']}
                 if activities.get(a['foreignProjectId'], None):
                     a2['exists'] = 1
                     a2['name'] = activities[a['foreignProjectId']].name
@@ -51,7 +53,7 @@ def show_activity(id=None):
                     a2['exists'] = 0
                 
                 activity.provider.append(a2)
-        
+    """        
 
     return jsonify(results = activity.to_array())
     # we use an array right now, but this could easily turn into an ORM query
@@ -75,7 +77,7 @@ def search(term=None):
     result['results'] = len(hits)
     result['activities'] = []
     for h in hits:
-        result['activities'].append(h.id)
+        result['activities'].append({'id': h.id, 'name': h.name})
 
     return jsonify(results = result)
 

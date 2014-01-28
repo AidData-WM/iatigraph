@@ -10,12 +10,12 @@ class Activity:
     recipient_country = ""
     sector = ""
 
-    provider = []
-    recipient = []
+    provider = {}
+    recipient = {}
 
     def __init__(self):
-        self.provider = []
-        self.recipient = []
+        self.provider = {}
+        self.recipient = {}
 
     """
     def add_provider(self, activity, amount=None, date=None):
@@ -52,8 +52,8 @@ class Activity:
         for r in self.recipient:
             arr['recipient'].append(r.to_array())
         """
-        arr['provider'] = self.provider
-        arr['receipient'] = self.recipient
+        arr['provider'] = list(self.provider.values())
+        arr['receipient'] = list(self.recipient.values())
 
         return arr
 
