@@ -20,7 +20,7 @@ sample_activity[1076].sector = 'Food aid/Food security programmes'
 
 sample_activity[2015] = Activity()
 sample_activity[2015].id = 2015
-sample_activity[2015].name = 'This is an activity!'
+sample_activity[2015].name = 'This is an activity2!'
 sample_activity[2015].date = '2014-01-27'
 sample_activity[2015].status = 'Implementation'
 sample_activity[2015].recipient_country = 'ZM'
