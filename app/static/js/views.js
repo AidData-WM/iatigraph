@@ -4,9 +4,7 @@
 
 site.SearchView = Backbone.View.extend({
 
-  render: function(term) {
-    console.log(term)
-    results = {}; //results || {results:false}
+  render: function(results) {
     this.$el.html(this.template(results));
     return this;
   },
@@ -17,9 +15,6 @@ site.SearchView = Backbone.View.extend({
 
   search: function() {
     var term = $('#search-text').val();
-    // $.getJSON('/search/' + term, function(data) {
-    //   console.log(data);
-    // });
     site.router.navigate('search/' + term, {trigger: true})
     return false;
   },

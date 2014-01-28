@@ -17,7 +17,7 @@ def template(template_name):
 
 
 @app.route("/activity/")
-@app.route("/activity/<int:id>")
+@app.route("/activity/<id>")
 def show_activity(id=None):
 
     if not id:

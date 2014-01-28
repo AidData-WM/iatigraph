@@ -40,7 +40,14 @@ site.Router = Backbone.Router.extend({
 
   search: function(term) {
     site.search_view = new site.SearchView();
-    site.components.map.html(site.search_view.render(term).el);
+    if (!term) {
+      site.components.map.html(site.search_view.render({status: 'success', activities: false}).el)
+    } else {
+      site.components.map.html(site.search_view.render({status:'loading'}).el);
+      $.getJSON('/search/' + term).then(function(data) {
+        site.components.map.html(site.search_view.render({status:'results', activities:data.results.activities}).el);
+      });
+    }
   },
 
   graph: function(activity_id) {
